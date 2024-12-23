@@ -24,7 +24,7 @@ const Navbar = () => {
                     <label className='btn btn-ghost lg:hidden'>
                         <FaBarsStaggered tabIndex={0} className='h-6 w-6'/>
                     </label>
-                    <ul className='menu w-48 rounded-md mt-2 space-y-4 lg:hidden dropdown-content bg-base-100 z-[1] shadow-lg h-screen' tabIndex={0}>
+                    <ul className='menu w-[60vw] rounded-md mt-2 space-y-3 lg:hidden dropdown-content bg-base-100 z-[1] shadow-lg h-[70vh]' tabIndex={0}>
                         <Navlinks/>
                     </ul>
                 </div>
